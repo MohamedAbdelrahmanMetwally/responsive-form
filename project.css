@@ -1,0 +1,33 @@
+body {
+    height: 100vh; 
+    background: linear-gradient(135deg, #004, #008);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background: #002a55; 
+    border-radius: 12px;  
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+input {
+    flex-basis: 45%;
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 5px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
